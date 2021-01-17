@@ -38,7 +38,7 @@ export default class Signup extends React.Component {
         }
 
         try {
-            const createAccReq = await axios.post('http://localhost:3001/api/v1/user/signup', {
+            const createAccReq = await axios.post('/api/v1/user/signup', {
                 email,
                 name,
                 birthdate,

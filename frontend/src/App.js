@@ -27,7 +27,7 @@ export default class App extends React.Component {
   async checkLogin() {
     try {
       this.setState({checkForLogin: true})
-      const req = await axios.get('http://localhost:3001/api/v1/user/validate', {
+      const req = await axios.get('/api/v1/user/validate', {
         headers: {Authorization: `Bearer ${window.localStorage.token}`}
       });
       if (req.status == 200)

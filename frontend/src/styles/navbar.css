@@ -5,33 +5,30 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding-bottom: 100px;
 }
 
 #navbar h1 {
-    position: absolute;
     margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 10px;
-    overflow-wrap: normal;
     padding-top: 25px;
-    padding-bottom: 40px;
     text-align: center;
     font-weight: lighter;
     font-size: 25px;
     font-family: 'Noto Sans';
+}
+
+#navbar #bg {
+    display: inline-flex;
+    width: 100%;
+    height: 120px;
     box-shadow: rgba(51, 51, 51, 0.159) 0px 0px 5px;
 }
 
 .container {
-    position: fixed;
     display: inline-block;
     cursor: pointer;
-    top: 25px;
-    left: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
   
 .bar1, .bar2, .bar3 {
@@ -55,7 +52,7 @@
 
 #sidebar {
     position: fixed;
-    padding-top: 45px;
+    padding-top: 70px;
     height: 100%;
     display: block;
     padding-left: 20px;

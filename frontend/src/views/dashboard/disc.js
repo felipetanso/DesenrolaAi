@@ -20,7 +20,8 @@ export default class DISC extends React.Component {
   render() {
     return (
         <>
-            <Navbar props={{text: "ANÁLISE COMPORTAMENTAL (DISC)", color: "#5E4CA9", foreground: "#F0F0F0", history: this.props.history}}/>
+            <Navbar props={{text: "ANÁLISE COMPORTAMENTAL      (DISC)", color: "#5E4CA9", foreground: "#F0F0F0", history: this.props.history}}/>
+            
         </>
     )
   }

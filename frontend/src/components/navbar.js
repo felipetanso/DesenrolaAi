@@ -24,6 +24,8 @@ export default class Navbar extends React.Component {
 
     if (window.localStorage.getItem("token") != null) {
       this.checkLogin();
+    } else {
+      window.location.href = "/"
     }
 
   }
@@ -31,7 +33,7 @@ export default class Navbar extends React.Component {
   async checkLogin() {
     try {
       this.setState({checkForLogin: true})
-      const req = await axios.get('http://localhost:3001/api/v1/user/validate', {
+      const req = await axios.get('/api/v1/user/validate', {
         headers: {Authorization: `Bearer ${window.localStorage.token}`}
       });
     } catch (err) {
@@ -75,13 +77,14 @@ export default class Navbar extends React.Component {
           <button type="button">Perfil Profissional</button>
         </div>
         <div id="navbar">
-            <div>
-              <h1 style={{backgroundColor: this.color, color: this.foreground}}>{this.text}</h1>
+            <div id="bg" style={{backgroundColor: this.color}}>
+              
               <div class="container" onClick={this.hamburgerClick}>
                 <div style={{backgroundColor: this.foreground}} class="bar1"></div>
                 <div style={{backgroundColor: this.foreground}} class="bar2"></div>
                 <div style={{backgroundColor: this.foreground}} class="bar3"></div>
               </div>
+              <h1 style={{ color: this.foreground}}>{this.text}</h1>
             </div>
         </div>
       </>

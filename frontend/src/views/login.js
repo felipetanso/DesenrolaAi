@@ -39,7 +39,7 @@ export default class Login extends React.Component {
         this.handleClick(e);
 
         try {
-            const loginReq = await axios.post('http://localhost:3001/api/v1/user/login', {
+            const loginReq = await axios.post('/api/v1/user/login', {
                 email,
                 password
             })

@@ -38,6 +38,8 @@ api.get('api/v1/ping', (req, res) => {
     });
 })
 
-
+api.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html'));
+})
 
 api.listen(process.env.PORT || 3001)
