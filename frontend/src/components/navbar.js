@@ -11,7 +11,6 @@ export default class Navbar extends React.Component {
     super(props)
     
     const {text, color, foreground} = this.props.props;
-    console.log(this.props)
     this.history = this.props.props.history
     this.text = text;
     this.color = color
@@ -39,6 +38,8 @@ export default class Navbar extends React.Component {
     } catch (err) {
       this.setState({checkForLogin: false});
       window.localStorage.removeItem('token')
+      console.log("hi")
+      window.location.href = "/";
     }
   }
 

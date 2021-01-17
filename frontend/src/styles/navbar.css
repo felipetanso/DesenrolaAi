@@ -73,10 +73,10 @@
 }
 
 #sidebar[hidden=true] {
-    animation: forwards slide-out 500ms;
+    animation: forwards slide-out-nav 500ms;
 }
 
-@keyframes slide-out {
+@keyframes slide-out-nav {
     from {
         transform: translateX(0%);
     } to {
