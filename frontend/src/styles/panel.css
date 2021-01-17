@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0;
+}
+#display-panel {
+    margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#display-panel button {
+    border: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #5e4ca9;
+    border-radius: 8px;
+    box-shadow: #22222235 2px 2px 4px;
+}

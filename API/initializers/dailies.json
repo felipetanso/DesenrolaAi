@@ -1,0 +1,37 @@
+{
+    "WORK_INFO": [
+        "Se você não precisasse prestar vestibular, qual profissão escolheria?",
+        "Pessoas, animais, plantas ou máquinas?",
+        "Se pudesse viver só de um hobby, qual seria?",
+        "Qual a sua prioridade: fazer algo novo ou reproduzir com excelência?",
+        "Como é o lugar em que você não trabalharia?"
+    ],
+    "WORK_WORLD": [
+        "Qual profissão mais contribui para a transformação da sociedade?",
+        "Quais características são importantes para um bom profissiona",   
+        "Qual a diferença entre trabalho e emprego?",
+        "O que trabalho deveria ser?",
+        "O que você prefere: ser autônomo ou ter carteira assinada?"
+    ],
+    "SELF": [
+        "Se você tivesse muito dinheiro para realizar um sonho, qual seria?",
+        "Com você se descreveria em apenas cinco palavra",
+        "Do que você tem medo?",
+        "Que personagem de filme você seria?",
+        "Quem mais influencia no seu jeito de ser?"
+    ],
+    "FUTURE": [
+        "O que do seu passado você levaria para o futuro?",
+        "O que você quer ter conquistado em 10 anos?",
+        "Onde você estará daqui a cinco anos?",
+        "Quais são seus planos para o futuro?",
+        "Se você pudesse fazer as pessoas acreditarem em algo em que você acredita, o que seria?"
+    ],
+    "CHOICE": [
+        "O que você faria se o dia tivesse cinco horas a mais?",
+        "Quem vence: você ou os outros?",
+        "De qual escolha você mais se orgulha?",
+        "De qual escolha você mais se arrependeu?",
+        "O que faz você desistir de algo?"
+    ]
+}

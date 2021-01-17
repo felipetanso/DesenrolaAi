@@ -1,0 +1,63 @@
+{
+    "MONEY": [
+        "Boa remuneração é o que mais me motiva no trabalho.",
+        "Abro mão do lazer se tiver chance de ganhar mais.",
+        "Minha principal meta é alcançar a independência financeira.",
+        "Ganhar bem é mais importante do que trabalhar no que gosto.",
+        "Acho que ter aumento de salário é mais importante do que receber uma promoção.",
+        "Gosto da pressão por resultados, desde que atrelada a bônus em dinheiro.",
+        "Arriscaria abrir um negócio se tivesse chances de ganhar mais.",
+        "Admito trocar um emprego seguro por outro arriscado se ganhar no mínimo 30% a mais.",
+        "Prefiro ganhar por comissão a ter salário fixo.",
+        "Trocaria de profissão para ganhar mais."
+    ],
+    "SECURITY": [
+        "Prefiro trabalhos estáveis.",
+        "Bom ambiente de trabalho é mais importante do que dinheiro.",
+        "Segurança no emprego é fundamental.",
+        "Tenho receio de trocar de emprego e me arrepender.",
+        "Sinto-me desconfortável ao mudar minha rotina de trabalho.",
+        "Faço seguros (da casa, de vida, do carro etc.)",
+        "Evito trocar certo pelo duvidoso.",
+        "Não sou profissionalizante ousado.",
+        "Prefiro salários fixo, mas garantido.",
+        "Gostaria de passar mais tempo com a família, mesmo ganhando menos."
+    ],
+    "LEARNING": [
+        "Aprendizado profissional é a minha prioridade.",
+        "Gostaria de conhecer outros setores da empresa, mesmo sem ganhar mais.",
+        "Não me importo em fazer cursos nos fins de semana.",
+        "Aceitaria um emprego para ganhar menos e aprendizado valesse a pena.",
+        "Prefiro trabalhar em locais nos quais haja muitos treinamentos.",
+        "Gosto de chefes que orientam.",
+        "Leio mais do que a maioria de meus colegas.",
+        "Penso em fazer outra faculdade ou pós - graduação.",
+        "Faria um estágio não remunerado para aprender coisas interessantes.",
+        "Gosto de estudar, mesmo no período de férias. "
+    ],
+    "SOCIAL": [
+        "Aprecio o reconhecimento público.",
+        "Gostaria de ser famoso.",
+        "Procuro ter um desempenho melhor do que o de meus colegas.",
+        "Penso que uma promoção é mais relevante do que um aumento de salário.",
+        "Gosto de demonstrar meus talentos.",
+        "Prefiro trabalhar meus talentos.",
+        "Prefiro trabalhar em empresas que propiciem rápido crescimento.",
+        "Gosto de causar impacto.",
+        "Penso que receber homenagens é mais importante do que receber prêmios em dinheiro.",
+        "Faria trabalho extra para ser promovido.",
+        "Procuro demonstrar meu sucesso."
+    ],
+    "SELF": [
+        "Dinheiro não é importante.",
+        "Adoro minha profissão ou meu trabalho.",
+        "Minha prioridade é ajudar os colegas.",
+        "Faço trabalhos voluntários.",
+        "Sinto-me realizado profissionalmente.",
+        "Prefiro trabalhar no que gosto, mesmo que ganhe menos.",
+        "Sinto-me seguro perante a vida.",
+        "Conheço bem meus talentos.",
+        "Conheço bem meus defeitos.",
+        "Conheço minha missão na vida."
+    ]
+}

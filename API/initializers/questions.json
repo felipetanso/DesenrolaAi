@@ -1,0 +1,444 @@
+{
+    "questions": [
+        {
+            "questionId": 1,
+            "options": [
+                "Extremamente pacato",
+                "Pacato",
+                "meio-termo",
+                "Aguerrido",
+                "Extremamente aguerrido"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 2,
+            "options": [
+                "Não confronta",
+                "evita confronto",
+                "meio-termo",
+                "Confrontador",
+                "muito confrontador"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 3,
+            "options": [
+                "Não exigente",
+                "Pouco exigente",
+                "meio-termo",
+                "Exigente",
+                "Muito exigente"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 4,
+            "options": [
+                "Muito obediente",
+                "obediente",
+                "meio-termo",
+                "Dominante",
+                "muito dominante"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 5,
+            "options": [
+                "Muito cooperante",
+                "Cooperante",
+                "meio-termo",
+                "Competitivo",
+                "Muito competitivo"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 6,
+            "options": [
+                "Muito tolerante",
+                "Tolerante",
+                "meio-termo",
+                "Intolerante",
+                "Muito intolerante"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 7,
+            "options": [
+                "Muito harmonioso",
+                "Harmonioso",
+                "meio-termo",
+                "Questionador",
+                "Muito questionador"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 8,
+            "options": [
+                "Muito indeciso",
+                "Indeciso",
+                "meio-termo",
+                "Decidido",
+                "Muito decidido"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 9,
+            "options": [
+                "muito cauteloso",
+                "Cauteloso",
+                "meio-termo",
+                "Ousado",
+                "Muito ousado"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 10,
+            "options": [
+                "Muito conciliador",
+                "Conciliador",
+                "meio-termo",
+                "Conflitivo",
+                "Muito conflitivo"
+            ],
+            "type": "DOMINANT"
+        },
+        {
+            "questionId": 11,
+            "options": [
+                "Muito introvertido",
+                "Introvertido",
+                "meio-termo",
+                "extrovertido",
+                "Muito extrovertido"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 12,
+            "options": [
+                "Muito calado",
+                "Calado",
+                "meio-termo",
+                "Falante",
+                "Muito falante"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 13,
+            "options": [
+                "Muito discreto",
+                "Discreto",
+                "meio-termo",
+                "Pouco discreto",
+                "Nada discreto"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 14,
+            "options": [
+                "Muito fechado",
+                "Fechado",
+                "meio-termo",
+                "Sociável",
+                "muito sociável"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 15,
+            "options": [
+                "Muito retraído",
+                "retraído",
+                "meio-termo",
+                "Expansivo",
+                "Muito expansivo"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 16,
+            "options": [
+                "Muito sério",
+                "Sério",
+                "meio-termo",
+                "Brincalhão",
+                "Muito brincalhão"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 17,
+            "options": [
+                "Odeia festas",
+                "Evita festas",
+                "meio-termo",
+                "Gosta de festas",
+                "Adora festas"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 18,
+            "options": [
+                "Muito frio",
+                "Frio",
+                "meio-termo",
+                "Caloroso",
+                "muito caloroso"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 19,
+            "options": [
+                "Muito inibido",
+                "inibido",
+                "meio-termo",
+                "Desinibido",
+                "Muito desinibido"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 20,
+            "options": [
+                "Nada emotivo",
+                "Pouco emotivo",
+                "meio-termo",
+                "Emotivo",
+                "Muito emotivo"
+            ],
+            "type": "INFLUENT"
+        },
+        {
+            "questionId": 21,
+            "options": [
+                "Muito intranquilo",
+                "Intranquilo",
+                "meio-termo",
+                "Tranquilo",
+                "Muito tranquilo"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 22,
+            "options": [
+                "Muito rápido",
+                "rápido",
+                "meio-termo",
+                "Lento",
+                "Muito Lento"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 23,
+            "options": [
+                "muito instável",
+                "instável",
+                "meio-termo",
+                "Estável",
+                "Muito estável"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 24,
+            "options": [
+                "Muito impaciente",
+                "impaciente",
+                "meio-termo",
+                "paciente",
+                "muito paciente"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 25,
+            "options": [
+                "Muito agitado",
+                "Agitado",
+                "meio-termo",
+                "Calmo",
+                "Muito calmo"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 26,
+            "options": [
+                "Muito ansioso",
+                "Ansioso",
+                "meio-termo",
+                "Sereno",
+                "Muito sereno"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 27,
+            "options": [
+                "Muda demais",
+                "busca mudanças",
+                "meio-termo",
+                "Evita mudanças",
+                "Odeia mudanças"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 28,
+            "options": [
+                "Muito acelerado",
+                "Acelerado",
+                "meio-termo",
+                "Vagaroso",
+                "Muito vagaroso"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 29,
+            "options": [
+                "Muito impulsivo",
+                "impulsivo",
+                "meio-termo",
+                "Reflexivo",
+                "muito reflexivo"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 30,
+            "options": [
+                "Odeia rotina",
+                "Evita rotina",
+                "meio-termo",
+                "Gosta de rotina",
+                "Adora rotina"
+            ],
+            "type": "STABILITY"
+        },
+        {
+            "questionId": 31,
+            "options": [
+                "Nada detalhista",
+                "Pouco detalhista",
+                "meio-termo",
+                "Detalhista",
+                "muito detalhista"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 32,
+            "options": [
+                "Muito organizado",
+                "Desorganizado",
+                "meio-termo",
+                "organizado",
+                "Muito organizado"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 33,
+            "options": [
+                "improvisa demais",
+                "Improvisa",
+                "meio-termo",
+                "Evita improvisos",
+                "não improvisa"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 34,
+            "options": [
+                "muito flexível",
+                "Flexível",
+                "meio-termo",
+                "Inflexível",
+                "muito inflexível"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 35,
+            "options": [
+                "muito intuitivo",
+                "intuitivo",
+                "meio-termo",
+                "Analítico",
+                "muito analítico"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 36,
+            "options": [
+                "Muito criativo",
+                "Criativo",
+                "meio-termo",
+                "pouco criativo",
+                "nada criativo"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 37,
+            "options": [
+                "muito adaptável",
+                "Adaptável",
+                "meio-termo",
+                "rígido",
+                "Muito rígido"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 38,
+            "options": [
+                "Muito informal",
+                "informal",
+                "meio-termo",
+                "Formal",
+                "muito formal"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 39,
+            "options": [
+                "Muito indisciplinado",
+                "indisciplinado",
+                "meio-termo",
+                "Disciplinado",
+                "muito disciplinado"
+            ],
+            "type": "CAUTIOUS"
+        },
+        {
+            "questionId": 40,
+            "options": [
+                "Muito arbitrário",
+                "Arbitrário",
+                "meio-termo",
+                "metódico",
+                "muito metódico"
+            ],
+            "type": "CAUTIOUS"
+        }
+    ]
+}

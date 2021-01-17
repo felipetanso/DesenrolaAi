@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#background h1 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #fbd118;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+#signup-form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+#blocky_carousel {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.blocky_panel {
+    position: absolute;
+    background-color: #222222;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    right: 0;
+    left: 0;
+    height: 300px;
+}
+
+.blocky_panel h2,p {
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+.blocky_panel .link_center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blocky_panel .link_center a {
+    color: #fbd118;
+    text-decoration: none;
+}
+
+
+.blocky_panel h3 {
+    color: #fbd118;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+.blocky_panel p {
+    font-size: 14px;
+}
+
+.blocky_panel input {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border: none;
+    bottom: 0px;
+    margin-top: 20px;
+    background-color: #F0F0F0;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 8px;
+    font-weight: lighter;
+}
+
+.blocky_panel button {
+    color: #222222;
+    background-color: #fbd118;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.blocky_panel button:disabled {
+    background-color: #A0A0A0;
+    cursor: not-allowed;
+}
+
+.blocky_panel[hidden] {
+    animation: slide-out 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-out {
+    from {
+        top: 0;
+        opacity: 1;
+    } 
+    to {
+        top: 100px;
+        opacity: 0;
+    }
+}

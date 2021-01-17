@@ -1,0 +1,41 @@
+id,opt0,opt1,opt2,opt3,opt4
+1,Extremamente pacato,Pacato,meio-termo,Aguerrido,Extremamente aguerrido
+2,Não confronta,evita confronto,meio-termo,Confrontador,muito confrontador
+3,Não exigente,Pouco exigente,meio-termo,Exigente,Muito exigente
+4,Muito obediente,obediente,meio-termo,Dominante,muito dominante
+5,Muito cooperante,Cooperante,meio-termo,Competitivo,Muito competitivo
+6,Muito tolerante,Tolerante,meio-termo,Intolerante,Muito intolerante
+7,Muito harmonioso,Harmonioso,meio-termo,Questionador,Muito questionador
+8,Muito indeciso,Indeciso,meio-termo,Decidido,Muito decidido
+9,muito cauteloso,Cauteloso,meio-termo,Ousado,Muito ousado
+10,Muito conciliador,Conciliador,meio-termo,Conflitivo,Muito conflitivo
+11,Muito introvertido,Introvertido,meio-termo,extrovertido,Muito extrovertido
+12,Muito calado,Calado,meio-termo,Falante,Muito falante
+13,Muito discreto,Discreto,meio-termo,Pouco discreto,Nada discreto
+14,Muito fechado,Fechado,meio-termo,Sociável,muito sociável
+15,Muito retraído,retraído,meio-termo,Expansivo,Muito expansivo
+16,Muito sério,Sério,meio-termo,Brincalhão,Muito brincalhão
+17,Odeia festas,Evita festas,meio-termo,Gosta de festas,Adora festas
+18,Muito frio,Frio,meio-termo,Caloroso,muito caloroso
+19,Muito inibido,inibido,meio-termo,Desinibido,Muito desinibido
+20,Nada emotivo,Pouco emotivo,meio-termo,Emotivo,Muito emotivo
+21,Muito intranquilo,Intranquilo,meio-termo,Tranquilo,Muito tranquilo
+22,Muito rápido,rápido,meio-termo,Lento,Muito Lento
+23,muito instável,instável,meio-termo,Estável,Muito estável
+24,Muito impaciente,impaciente,meio-termo,paciente,muito paciente
+25,Muito agitado,Agitado,meio-termo,Calmo,Muito calmo
+26,Muito ansioso,Ansioso,meio-termo,Sereno,Muito sereno
+27,Muda demais,busca mudanças,meio-termo,Evita mudanças,Odeia mudanças
+28,Muito acelerado,Acelerado,meio-termo,Vagaroso,Muito vagaroso
+29,Muito impulsivo,impulsivo,meio-termo,Reflexivo,muito reflexivo
+30,Odeia rotina,Evita rotina,meio-termo,Gosta de rotina,Adora rotina
+31,Nada detalhista,Pouco detalhista,meio-termo,Detalhista,muito detalhista
+32,Muito organizado,Desorganizado,meio-termo,organizado,Muito organizado
+33,improvisa demais,Improvisa,meio-termo,Evita improvisos,não improvisa
+34,muito flexível,Flexível,meio-termo,Inflexível,muito inflexível
+35,muito intuitivo,intuitivo,meio-termo,Analítico,muito analítico
+36,Muito criativo,Criativo,meio-termo,pouco criativo,nada criativo
+37,muito adaptável,Adaptável,meio-termo,rígido,Muito rígido
+38,Muito informal,informal,meio-termo,Formal,muito formal
+39,Muito indisciplinado,indisciplinado,meio-termo,Disciplinado,muito disciplinado
+40,Muito arbitrário,Arbitrário,meio-termo,metódico,muito metódico

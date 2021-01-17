@@ -1,0 +1,132 @@
+{
+    "personalities": [
+        {
+            "personality": "Dominância",
+            "personalityId": "DOMINANT",
+            "strongTraits": [
+                "Exigente",
+                "Direta",
+                "Determinada",
+                "Dominante",
+                "Competitiva",
+                "Decidida",
+                "Questionadora",
+                "Franca"
+            ],
+            "mainTraits": [
+                "Gosta de comandar",
+                "É objetiva",
+                "Busca desafios",
+                "Impõe respeito"
+            ],
+            "weakTraits": [
+                "Pode causar medo",
+                "Pode ser grosseira",
+                "Pode ocorrer muitos riscos",
+                "Pode ser agressiva"
+            ],
+            "idealPositions": [
+                "Trabalhos que tenha chances de comandar",
+                "Ambientes que proporcionem desafios constantes",
+                "Locais que permitam sua livre expressão",
+                "Ser proprietária, mesmo que pequenos negócios"
+            ]
+        },
+        {
+            "personality": "Influência",
+            "personalityId": "INFLUENT",
+            "strongTraits": [
+                "Brincalhona",
+                "Efetiva",
+                "Falante",
+                "Persuasiva",
+                "Calorosa",
+                "Extrovertida",
+                "Animada",
+                "Sociável"
+            ],
+            "mainTraits": [
+                "É bem relacioanda",
+                "É entusiasmada",
+                "Trabalha bem em equipe",
+                "É persuasiva"
+            ],
+            "weakTraits": [
+                "Pode falar demais",
+                "Pode ser indiscreta",
+                "Pode ser superficial",
+                "Pode ser má ouvinte"
+            ],
+            "idealPositions": [
+                "Trabalhos que propiciem amplo contato com outras pessoas",
+                "Ambientes animados e estimulantes",
+                "Locais que valorizem o trabalho em equipe",
+                "Funções que demandem intensa comunicação"
+            ]
+        },
+        {
+            "personality": "Estabilidade",
+            "personalityId": "STABILITY",
+            "strongTraits": [
+                "Paciente",
+                "Ponderada",
+                "Consistente",
+                "Lenta",
+                "Estável",
+                "Rotineira",
+                "Tranquila",
+                "Calma"
+            ],
+            "mainTraits": [
+                "Transmite confiança",
+                "Adapta-se bem a trabalhos repetitivos",
+                "É previsível",
+                "Tranquiliza o ambiente"
+            ],
+            "weakTraits": [
+                "Pode ser muito lenta",
+                "Pode ser resistente à mudanças",
+                "Pode ter dificuldade para trabalhar sob pressão",
+                "Pode ter dificuldade para fazer várias tarefas simultaneamente"
+            ],
+            "idealPositions": [
+                "Trabalhos estáveis e seguros",
+                "Ambientes familiares e previsíveis",
+                "Locais em que possa permanecer por longo prazo",
+                "Funções que valorizem mais a consistência do que a rapidez"
+            ]
+        },
+        {
+            "personality": "Conformidade",
+            "personalityId": "CAUTIOUS",
+            "strongTraits": [
+                "Detalhista",
+                "Meticulosa",
+                "Perfeccionista",
+                "Sistemática",
+                "Regrada",
+                "Precisa",
+                "Rígida",
+                "Organizada"
+            ],
+            "mainTraits": [
+                "Produz com qualidade",
+                "Presta atenção aos detalhes",
+                "Identifica falhas com precisão",
+                "Gosta de cumprir regras"
+            ],
+            "weakTraits": [
+                "Pode travar o sistema",
+                "Pode  se apegar a detalhes insignificantes",
+                "Pode não delegar",
+                "Pode ser  inflexível"
+            ],
+            "idealPositions": [
+                "Trabalhos nos quais haja regras claras",
+                "Funções em que pessoas detalhistas são valorizadas",
+                "Locais em que possam implementar metodologias rígidas",
+                "Cargos que valorizem mais a disciplina do que a criatividade"
+            ]
+        }
+    ]
+}

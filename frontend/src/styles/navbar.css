@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#navbar h1 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 10px;
+    overflow-wrap: normal;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Noto Sans';
+    box-shadow: rgba(51, 51, 51, 0.159) 0px 0px 5px;
+}
+
+.container {
+    position: fixed;
+    display: inline-block;
+    cursor: pointer;
+    top: 25px;
+    left: 20px;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 6px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#sidebar {
+    position: fixed;
+    padding-top: 45px;
+    height: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%;
+    top: 0;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color: #F0F0F0;
+    box-shadow: rgba(51, 51, 51, 0.344) 0px 0px 10px;
+    overflow-y: scroll;
+    transform: translateX(-100%);
+    bottom: 0;
+}
+
+#sidebar[hidden=false] {
+    animation: forwards slide-in 500ms;
+}
+
+#sidebar[hidden=true] {
+    animation: forwards slide-out 500ms;
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0%);
+    } to {
+        transform: translate(-100%);
+    }
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translate(0%);
+    }
+}
+
+#sidebar button {
+    border: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
