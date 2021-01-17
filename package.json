@@ -16,7 +16,7 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "start": "start backend",
+    "start": "nodemon backend",
     "test": "test"
   },
   "author": "Haato",

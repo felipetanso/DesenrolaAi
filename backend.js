@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const cors = require('cors');
 // This is called only in the dev environment
 const data = require('./API/initializers/data');
+const path = require('path');
 
 data.addQuestionsToDatabase();
 data.addPersonalityToDatabase();
@@ -18,6 +19,7 @@ const dailiesRoutes = require('./API/routes/dailies');
 
 api.use(express.json())
 api.use(cors())
+api.use(express.static(path.join(__dirname, 'frontend', 'build')));
 
 mongoose.connect(
     `mongodb+srv://haato:${process.env.MONGODB_PASS}@cluster0.2abxv.mongodb.net/ProjectX?retryWrites=true&w=majority`,
@@ -42,4 +44,4 @@ api.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html'));
 })
 
-api.listen(process.env.PORT || 3001)
+api.listen(process.env.PORT || 8080)
