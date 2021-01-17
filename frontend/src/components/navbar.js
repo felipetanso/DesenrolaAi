@@ -63,6 +63,12 @@ export default class Navbar extends React.Component {
   autoconhecimento = (e) => {
     window.location.href = '/dashboard/self'
   }
+
+  logout = (e) => {
+    window.localStorage.removeItem('token')
+    console.log("hi")
+    window.location.href = "/";
+  }
   render() {
     return (
       <>
@@ -73,9 +79,7 @@ export default class Navbar extends React.Component {
           <button type="button">Conversas</button>
           <button type="button">Vagas Disponíveis</button>
           <button type="button">Acompanhar evolução</button>
-          <button type="button">Carteira</button>
-          <button type="button">Clube de Vantagens</button>
-          <button type="button">Perfil Profissional</button>
+          <button type="button" style={{backgroundColor:"#ff4444", color:"#fefefe"}} onClick={this.logout}>Sair</button>
         </div>
         <div id="navbar">
             <div id="bg" style={{backgroundColor: this.color}}>

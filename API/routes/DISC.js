@@ -21,8 +21,10 @@ router.get('/', authCheck, async (req, res) => {
     return res.status(200).json(data)
 })
 
-router.get('/calculate', authCheck, async (req, res) => {
+router.post('/calculate', authCheck, async (req, res) => {
     
+    console.log(req.body)
+
     const questionsDataCached = await Question.find({questionType: "DISC"});
     
     const userChoices = req.body.choices;

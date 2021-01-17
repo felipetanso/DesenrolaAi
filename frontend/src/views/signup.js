@@ -93,7 +93,7 @@ export default class Signup extends React.Component {
         return (
             <div id="background">
                 <h1>Desenrola Aí</h1>
-                <form id="signup-form" onSubmit={this.onSubmit}>
+                <form id="signup-form" onSubmit={this.onSubmit} autoComplete="off">
                     <div id='blocky_carousel'>
                         <div className="blocky_panel">
                             <h3 style={{textAlign:"center"}}>{this.state.accountCreateRequested ? (this.state.accountCreated ? "Conta criada!" : this.state.accountErrMessage) : ""}</h3>

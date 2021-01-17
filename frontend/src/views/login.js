@@ -81,11 +81,12 @@ export default class Login extends React.Component {
         return (
             <div id="background">
                 <h1>Desenrola Aí</h1>
-                <form id="signup-form" onSubmit={this.onSubmit}>
+                <form id="signup-form" onSubmit={this.onSubmit} autoComplete="off">
                     <div id='blocky_carousel'>
                     <div className="blocky_panel">
                             <h2 style={{textAlign:"center"}}>{this.state.loggedIn ? "Sucesso" : (this.state.errorMessage)}</h2>
                             <div class="loader" hidden={!!this.state.errorMessage}>Loading...</div>
+                            <p class="link_center" hidden={!this.state.errorMessage}><a href="/">Voltar</a></p>
                         </div>
                         <div className="blocky_panel">
                             <h2 style={{textAlign:"center"}}>Entrar</h2>

@@ -1,0 +1,42 @@
+#panel_questions {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#panel_questions p {
+    color: #222222;
+    text-align: justify;
+}
+
+#panel_questions button {
+    border: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #5e4ca9;
+    border-radius: 8px;
+    box-shadow: #22222235 2px 2px 4px;
+}
+
+#INFLUENT {
+    color: rgb(72, 66, 186);
+}
+
+#CAUTIOUS {
+    color: rgb(186, 158, 66);
+}
+
+#DOMINANT {
+    color: rgb(186, 66, 66);
+}
+
+#STABILITY {
+    color: rgb(66, 186, 66);
+}
