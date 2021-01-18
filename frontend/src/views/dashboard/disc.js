@@ -80,7 +80,7 @@ export default class DISC extends React.Component {
                                 <li>Dominância: {data.sums.DOMINANT}%</li>
                                 <li>Influência: {data.sums.INFLUENT}%</li>
                                 <li>Estabilidade: {data.sums.STABILITY}%</li>
-                                <li>Segurança: {data.sums.CAUTIOUS}%</li>
+                                <li>Conformidade: {data.sums.CAUTIOUS}%</li>
                             </ul>
                             <p>Quanto mais alta for a {data.result.personality}, mas intensamente a pessoa será:</p>
                             <ul>
