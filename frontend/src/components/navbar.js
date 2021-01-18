@@ -63,10 +63,12 @@ export default class Navbar extends React.Component {
   autoconhecimento = (e) => {
     window.location.href = '/dashboard/self'
   }
+  softskills = (e) => {
+    window.location.href = '/dashboard/soft'
+  }
 
   logout = (e) => {
     window.localStorage.removeItem('token')
-    console.log("hi")
     window.location.href = "/";
   }
   render() {
@@ -75,10 +77,12 @@ export default class Navbar extends React.Component {
         <div id="sidebar" hidden>
           <button type="button">Sobre</button>
           <button type="button" onClick={this.autoconhecimento}>Autoconhecimento</button>
-          <button type="button">Soft Skills</button>
+          <button type="button" onClick={this.softskills}>Soft Skills</button>
           <button type="button">Conversas</button>
           <button type="button">Vagas Disponíveis</button>
           <button type="button">Acompanhar evolução</button>
+          <button type="button">Carteira</button>
+          <button type="button">Clube de Vantagens</button>
           <button type="button" style={{backgroundColor:"#ff4444", color:"#fefefe"}} onClick={this.logout}>Sair</button>
         </div>
         <div id="navbar">

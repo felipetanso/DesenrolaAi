@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../components/navbar';
 import AutoConhecimento from '../../components/autoconhecimento';
+import SoftSkills from '../../components/softskills';
 
 const axios = require('axios');
 
@@ -18,10 +19,12 @@ export default class Dashboard extends React.Component {
 
     this.names = {
         "self": "AUTOCONHECIMENTO",
+        "soft": "SOFT SKILLS",
         undefined: "MENU"
     }
     this.components = {
-        "self": <AutoConhecimento/>
+        "self": <AutoConhecimento/>,
+        "soft": <SoftSkills/>
     }
   }
 

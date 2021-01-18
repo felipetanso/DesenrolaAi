@@ -9,6 +9,7 @@ import Signup from './views/signup';
 import Login from './views/login';
 import Dashboard from './views/dashboard/dashboard';
 import DISC from './views/dashboard/disc';
+import Daily from './views/dashboard/daily';
 
 ReactDOM.render(
 		<React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
 					<Route path="/dashboard" exact component={Dashboard}/>
 					<Route path="/dashboard/:id" component={Dashboard}/>
 					<Route path="/disc" component={DISC}/>
+					<Route path='/daily' component={Daily}/>
 				</Switch>
 			</BrowserRouter>
 		</React.StrictMode>,

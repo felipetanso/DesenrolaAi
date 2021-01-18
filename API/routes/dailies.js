@@ -18,7 +18,7 @@ router.get('/', authCheck, async (req, res) => {
     }
 
     let possibleDailies = await Dailies.find();
-    possibleDailies = possibleDailies.filter(daily => !userInfo.dailies.completed.includes(daily._id));
+    possibleDailies = possibleDailies.filter(daily => !userInfo.dailies.completed || !userInfo.dailies.completed.includes(daily._id));
     
     const {text, type, _id} = possibleDailies[Math.floor(Math.random() * possibleDailies.length)]
 
